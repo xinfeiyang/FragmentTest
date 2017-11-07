@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:apps="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.security.fragment.view.AutoWrapTextView
+        android:background="#41403a"
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        apps:paddingLeft="20dp"
+        apps:paddingRight="20dp"
+        apps:paddingTop="5dp"
+        apps:paddingBottom="5dp"
+        apps:textColor="#f42dbf"
+        apps:textSize="25sp"/>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:layout_gravity="center_vertical"
+        android:id="@+id/pieChart"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"/>
+
+</LinearLayout>

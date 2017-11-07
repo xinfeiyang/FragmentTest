@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AutoWrapTextView">
+        <attr name="paddingLeft" format="dimension"></attr>
+        <attr name="paddingRight" format="dimension"></attr>
+        <attr name="paddingTop" format="dimension"></attr>
+        <attr name="paddingBottom" format="dimension"></attr>
+        <attr name="textColor" format="color"></attr>
+        <attr name="textSize" format="dimension"></attr>
+        <attr name="lineSpace" format="integer"></attr>
+    </declare-styleable>
+</resources>
